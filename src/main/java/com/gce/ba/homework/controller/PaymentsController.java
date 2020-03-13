@@ -39,12 +39,13 @@ public class PaymentsController {
 
 
     @GetMapping({"", "/"})
-    public List<Payment> getValidPayments(Pageable pageable, HttpServletRequest request) throws PaymentNotFoundException {
-        return commonService.getPayments(pageable);
+    public List<Payment> getValidPayments(@RequestParam(required = false) Double amount, Pageable pageable, HttpServletRequest request) throws PaymentNotFoundException {
+        return commonService.getValidPaymentsFilterByAmount(amount, pageable);
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<SpecificPayment> getSpecificPayment(@PathVariable("id") Integer id, HttpServletRequest request) throws PaymentNotFoundException {
         return new ResponseEntity<>(commonService.getSpecificPaymentInfo(id), HttpStatus.OK);
     }
+
 }

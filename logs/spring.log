@@ -1,0 +1,938 @@
+2020-03-13 | 09:03:09.832 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 14652 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 09:03:09.839 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 09:03:10.026 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 09:03:10.027 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 09:03:10.027 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 09:03:11.851 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 09:03:11.978 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 114ms. Found 1 JPA repository interfaces.
+2020-03-13 | 09:03:13.330 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8087 (http)
+2020-03-13 | 09:03:13.355 | restartedMain |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-03-13 | 09:03:13.356 | restartedMain |  INFO | o.a.c.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 | 09:03:13.719 | restartedMain |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-03-13 | 09:03:13.719 | restartedMain |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 3689 ms
+2020-03-13 | 09:03:13.782 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-03-13 | 09:03:13.979 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-03-13 | 09:03:13.989 | restartedMain |  INFO | o.s.b.a.h.H2ConsoleAutoConfiguration | H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-03-13 | 09:03:14.212 | restartedMain |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 | 09:03:14.363 | restartedMain |  INFO | org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-13 | 09:03:14.581 | restartedMain |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-13 | 09:03:14.862 | restartedMain |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-13 | 09:03:16.375 | restartedMain |  INFO | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 | 09:03:16.390 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 09:03:16.417 | restartedMain |  WARN | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2020-03-13 | 09:03:17.562 | restartedMain |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-13 | 09:03:17.722 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 09:03:18.383 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8087 (http) with context path ''
+2020-03-13 | 09:03:18.390 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Started HomeworkApplication in 11.155 seconds (JVM running for 14.608)
+2020-03-13 | 09:04:21.302 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 12384 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 09:04:21.308 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 09:04:21.382 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 09:04:21.384 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 09:04:21.386 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 09:04:22.366 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 09:04:22.503 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 124ms. Found 1 JPA repository interfaces.
+2020-03-13 | 09:04:24.141 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8087 (http)
+2020-03-13 | 09:04:24.161 | restartedMain |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-03-13 | 09:04:24.162 | restartedMain |  INFO | o.a.c.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 | 09:04:24.347 | restartedMain |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-03-13 | 09:04:24.348 | restartedMain |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 2960 ms
+2020-03-13 | 09:04:24.410 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-03-13 | 09:04:24.581 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-03-13 | 09:04:24.593 | restartedMain |  INFO | o.s.b.a.h.H2ConsoleAutoConfiguration | H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-03-13 | 09:04:24.792 | restartedMain |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 | 09:04:24.912 | restartedMain |  INFO | org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-13 | 09:04:25.128 | restartedMain |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-13 | 09:04:25.332 | restartedMain |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-13 | 09:04:26.414 | restartedMain |  INFO | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 | 09:04:26.426 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 09:04:26.453 | restartedMain |  WARN | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2020-03-13 | 09:04:27.178 | restartedMain |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-13 | 09:04:27.258 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 09:04:27.536 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8087 (http) with context path ''
+2020-03-13 | 09:04:27.543 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Started HomeworkApplication in 7.067 seconds (JVM running for 8.121)
+2020-03-13 | 09:06:03.708 | http-nio-8087-exec-3 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 | 09:06:03.709 | http-nio-8087-exec-3 |  INFO | o.s.w.s.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2020-03-13 | 09:06:03.729 | http-nio-8087-exec-3 |  INFO | o.s.w.s.DispatcherServlet | Completed initialization in 17 ms
+2020-03-13 | 09:06:04.503 | http-nio-8087-exec-3 |  INFO | c.g.b.h.a.LoggingHandler | Method: createPayment User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 09:06:04.968 | pool-1-thread-1 |  INFO | c.g.b.h.s.n.PaymentEventProcessor | External service notification status is TRUE that payment type TYPE2 was successfully SAVED
+2020-03-13 | 09:06:25.354 | http-nio-8087-exec-8 |  WARN | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.gce.ba.homework.domain.Payment com.gce.ba.homework.controller.PaymentOneController.createPayment(com.gce.ba.homework.domain.PaymentOne,javax.servlet.http.HttpServletRequest): [Field error in object 'paymentOne' on field 'currency': rejected value [USD]; codes [CurrencyValidation.paymentOne.currency,CurrencyValidation.currency,CurrencyValidation.java.lang.String,CurrencyValidation]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [paymentOne.currency,currency]; arguments []; default message [currency],[Lcom.gce.ba.homework.utils.enums.Currency;@3ee2b387]; default message [Currency should be of [EUR]]] ]
+2020-03-13 | 09:20:04.228 | http-nio-8087-exec-10 |  WARN | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.gce.ba.homework.domain.Payment com.gce.ba.homework.controller.PaymentThreeController.createPayment(com.gce.ba.homework.domain.PaymentThree,javax.servlet.http.HttpServletRequest): [Field error in object 'paymentThree' on field 'bic_code': rejected value [null]; codes [NotNull.paymentThree.bic_code,NotNull.bic_code,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [paymentThree.bic_code,bic_code]; arguments []; default message [bic_code]]; default message [BIC_code required!]] ]
+2020-03-13 | 09:20:50.232 | http-nio-8087-exec-4 |  INFO | c.g.b.h.a.LoggingHandler | Method: createPayment User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 09:21:33.667 | http-nio-8087-exec-2 |  WARN | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 6, column: 2]]
+2020-03-13 | 09:21:57.505 | http-nio-8087-exec-5 |  INFO | c.g.b.h.a.LoggingHandler | Method: createPayment User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 09:22:09.766 | pool-2-thread-1 |  INFO | c.g.b.h.s.n.PaymentEventProcessor | External service notification status is TRUE that payment type TYPE2 was successfully SAVED
+2020-03-13 | 09:27:22.543 | http-nio-8087-exec-8 |  INFO | c.g.b.h.a.LoggingHandler | Method: getValidPayments User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 09:45:05.166 | Thread-1 |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 09:45:05.174 | Thread-1 |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 09:45:05.191 | Thread-1 |  INFO | o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl | HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-03-13 | 09:45:05.472 | Thread-1 |  WARN | o.s.b.f.s.DisposableBeanAdapter | Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-03-13 | 09:45:05.484 | Thread-1 |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2020-03-13 | 09:45:05.525 | Thread-1 |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Shutdown completed.
+2020-03-13 | 09:45:06.676 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 12384 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 09:45:06.679 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 09:45:07.469 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 09:45:07.526 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 53ms. Found 0 JPA repository interfaces.
+2020-03-13 | 09:45:07.744 | restartedMain | ERROR | o.s.b.SpringApplication | Application run failed
+java.lang.NoClassDefFoundError: com/gce/ba/homework/repository/PaymentRepository
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3138) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2358) ~[na:na]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindConstructorProvider.findConstructorBindingAnnotatedConstructor(ConfigurationPropertiesBindConstructorProvider.java:62) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindConstructorProvider.getBindConstructor(ConfigurationPropertiesBindConstructorProvider.java:48) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBean$BindMethod.forType(ConfigurationPropertiesBean.java:311) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanDefinitionValidator.validate(ConfigurationPropertiesBeanDefinitionValidator.java:63) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanDefinitionValidator.postProcessBeanFactory(ConfigurationPropertiesBeanDefinitionValidator.java:45) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:286) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:174) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at com.gce.ba.homework.HomeworkApplication.main(HomeworkApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+Caused by: java.lang.ClassNotFoundException: com.gce.ba.homework.repository.PaymentRepository
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144) ~[spring-boot-devtools-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	... 24 common frames omitted
+2020-03-13 | 09:45:09.604 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 09:45:09.608 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 09:45:09.642 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 12384 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 09:45:09.652 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 09:45:10.431 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 09:45:10.511 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 74ms. Found 1 JPA repository interfaces.
+2020-03-13 | 09:45:10.763 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8087 (http)
+2020-03-13 | 09:45:10.767 | restartedMain |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-03-13 | 09:45:10.774 | restartedMain |  INFO | o.a.c.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 | 09:45:10.835 | restartedMain |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-03-13 | 09:45:10.836 | restartedMain |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 1174 ms
+2020-03-13 | 09:45:10.886 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-2 - Starting...
+2020-03-13 | 09:45:10.895 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-2 - Start completed.
+2020-03-13 | 09:45:10.897 | restartedMain |  INFO | o.s.b.a.h.H2ConsoleAutoConfiguration | H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-03-13 | 09:45:10.985 | restartedMain |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 | 09:45:11.007 | restartedMain |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-13 | 09:45:11.491 | restartedMain |  INFO | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 | 09:45:11.492 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 09:45:11.504 | restartedMain |  WARN | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2020-03-13 | 09:45:11.909 | restartedMain |  WARN | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'paymentsController' defined in file [C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes\com\gce\ba\homework\controller\PaymentsController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.gce.ba.homework.service.paymentService.CommonService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2020-03-13 | 09:45:11.932 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 09:45:11.936 | restartedMain |  INFO | o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl | HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-03-13 | 09:45:12.145 | restartedMain |  WARN | o.s.b.f.s.DisposableBeanAdapter | Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-03-13 | 09:45:12.148 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-2 - Shutdown initiated...
+2020-03-13 | 09:45:12.156 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-2 - Shutdown completed.
+2020-03-13 | 09:45:12.158 | restartedMain |  INFO | o.a.c.c.StandardService | Stopping service [Tomcat]
+2020-03-13 | 09:45:12.177 | restartedMain |  INFO | o.s.b.a.l.ConditionEvaluationReportLoggingListener | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-13 | 09:45:12.706 | restartedMain | ERROR | o.s.b.d.LoggingFailureAnalysisReporter | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.gce.ba.homework.controller.PaymentsController required a bean of type 'com.gce.ba.homework.service.paymentService.CommonService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.gce.ba.homework.service.paymentService.CommonService' in your configuration.
+
+2020-03-13 | 09:45:20.081 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 32072 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 09:45:20.087 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 09:45:20.321 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 09:45:20.323 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 09:45:20.337 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 09:45:22.075 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 09:45:22.201 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 111ms. Found 1 JPA repository interfaces.
+2020-03-13 | 09:45:23.629 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8087 (http)
+2020-03-13 | 09:45:23.644 | restartedMain |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-03-13 | 09:45:23.645 | restartedMain |  INFO | o.a.c.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 | 09:45:23.868 | restartedMain |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-03-13 | 09:45:23.869 | restartedMain |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 3532 ms
+2020-03-13 | 09:45:23.951 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-03-13 | 09:45:24.163 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-03-13 | 09:45:24.176 | restartedMain |  INFO | o.s.b.a.h.H2ConsoleAutoConfiguration | H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-03-13 | 09:45:24.413 | restartedMain |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 | 09:45:24.542 | restartedMain |  INFO | org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-13 | 09:45:24.782 | restartedMain |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-13 | 09:45:25.055 | restartedMain |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-13 | 09:45:26.390 | restartedMain |  INFO | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 | 09:45:26.403 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 09:45:26.428 | restartedMain |  WARN | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2020-03-13 | 09:45:27.399 | restartedMain |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-13 | 09:45:27.519 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 09:45:28.026 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8087 (http) with context path ''
+2020-03-13 | 09:45:28.033 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Started HomeworkApplication in 9.3 seconds (JVM running for 13.811)
+2020-03-13 | 09:45:51.954 | http-nio-8087-exec-4 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 | 09:45:51.956 | http-nio-8087-exec-4 |  INFO | o.s.w.s.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2020-03-13 | 09:45:51.973 | http-nio-8087-exec-4 |  INFO | o.s.w.s.DispatcherServlet | Completed initialization in 17 ms
+2020-03-13 | 09:45:52.705 | http-nio-8087-exec-4 |  INFO | c.g.b.h.a.LoggingHandler | Method: createPayment User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 09:45:54.941 | pool-1-thread-1 |  INFO | c.g.b.h.s.n.PaymentEventProcessor | External service notification status is TRUE that payment type TYPE2 was successfully SAVED
+2020-03-13 | 09:46:07.125 | http-nio-8087-exec-2 |  INFO | c.g.b.h.a.LoggingHandler | Method: getValidPaymentsByAmount User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 09:46:19.560 | http-nio-8087-exec-6 |  INFO | c.g.b.h.a.LoggingHandler | Method: createPayment User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 09:46:19.947 | pool-2-thread-1 |  INFO | c.g.b.h.s.n.PaymentEventProcessor | External service notification status is TRUE that payment type TYPE2 was successfully SAVED
+2020-03-13 | 09:46:23.491 | http-nio-8087-exec-1 |  INFO | c.g.b.h.a.LoggingHandler | Method: getValidPaymentsByAmount User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 09:54:29.066 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 12384 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 09:54:29.069 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 09:54:30.401 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 09:54:30.554 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 132ms. Found 0 JPA repository interfaces.
+2020-03-13 | 09:54:30.816 | restartedMain | ERROR | o.s.b.SpringApplication | Application run failed
+java.lang.NoClassDefFoundError: com/gce/ba/homework/repository/PaymentRepository
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3138) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2358) ~[na:na]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindConstructorProvider.findConstructorBindingAnnotatedConstructor(ConfigurationPropertiesBindConstructorProvider.java:62) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindConstructorProvider.getBindConstructor(ConfigurationPropertiesBindConstructorProvider.java:48) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBean$BindMethod.forType(ConfigurationPropertiesBean.java:311) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanDefinitionValidator.validate(ConfigurationPropertiesBeanDefinitionValidator.java:63) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanDefinitionValidator.postProcessBeanFactory(ConfigurationPropertiesBeanDefinitionValidator.java:45) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:286) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:174) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at com.gce.ba.homework.HomeworkApplication.main(HomeworkApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+Caused by: java.lang.ClassNotFoundException: com.gce.ba.homework.repository.PaymentRepository
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144) ~[spring-boot-devtools-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	... 24 common frames omitted
+2020-03-13 | 09:54:48.586 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 09:54:48.593 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 09:54:48.755 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 12384 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 09:54:48.764 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 09:54:49.668 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 09:54:49.719 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 43ms. Found 0 JPA repository interfaces.
+2020-03-13 | 09:54:50.102 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8087 (http)
+2020-03-13 | 09:54:50.104 | restartedMain |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-03-13 | 09:54:50.106 | restartedMain |  INFO | o.a.c.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 | 09:54:50.149 | restartedMain |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-03-13 | 09:54:50.153 | restartedMain |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 1379 ms
+2020-03-13 | 09:54:50.184 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-3 - Starting...
+2020-03-13 | 09:54:50.195 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-3 - Start completed.
+2020-03-13 | 09:54:50.195 | restartedMain |  INFO | o.s.b.a.h.H2ConsoleAutoConfiguration | H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-03-13 | 09:54:50.282 | restartedMain |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 | 09:54:50.319 | restartedMain |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-13 | 09:54:50.588 | restartedMain |  INFO | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 | 09:54:50.589 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 09:54:50.611 | restartedMain |  WARN | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2020-03-13 | 09:54:51.250 | restartedMain |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-13 | 09:54:51.349 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 09:54:51.972 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8087 (http) with context path ''
+2020-03-13 | 09:54:51.992 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Started HomeworkApplication in 3.487 seconds (JVM running for 3032.57)
+2020-03-13 | 09:54:51.998 | restartedMain |  INFO | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener | Condition evaluation unchanged
+2020-03-13 | 09:54:53.508 | Thread-6 |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 09:54:53.510 | Thread-6 |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 09:54:53.512 | Thread-6 |  INFO | o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl | HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-03-13 | 09:54:53.725 | Thread-6 |  WARN | o.s.b.f.s.DisposableBeanAdapter | Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-03-13 | 09:54:53.758 | Thread-6 |  INFO | c.z.h.HikariDataSource | HikariPool-3 - Shutdown initiated...
+2020-03-13 | 09:54:53.834 | Thread-6 |  INFO | c.z.h.HikariDataSource | HikariPool-3 - Shutdown completed.
+2020-03-13 | 09:54:54.923 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 12384 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 09:54:54.923 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 09:54:55.435 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 09:54:55.492 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 56ms. Found 1 JPA repository interfaces.
+2020-03-13 | 09:54:56.053 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8087 (http)
+2020-03-13 | 09:54:56.072 | restartedMain |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-03-13 | 09:54:56.074 | restartedMain |  INFO | o.a.c.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 | 09:54:56.280 | restartedMain |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-03-13 | 09:54:56.286 | restartedMain |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 1356 ms
+2020-03-13 | 09:54:56.334 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-4 - Starting...
+2020-03-13 | 09:54:56.343 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-4 - Start completed.
+2020-03-13 | 09:54:56.346 | restartedMain |  INFO | o.s.b.a.h.H2ConsoleAutoConfiguration | H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-03-13 | 09:54:56.423 | restartedMain |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 | 09:54:56.446 | restartedMain |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-13 | 09:54:57.004 | restartedMain |  INFO | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 | 09:54:57.094 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 09:54:57.234 | restartedMain |  WARN | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2020-03-13 | 09:54:57.749 | restartedMain |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-13 | 09:54:57.832 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 09:54:57.882 | restartedMain |  WARN | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'paymentsController' method 
+com.gce.ba.homework.controller.PaymentsController#getValidPaymentsByAmount(Double, HttpServletRequest, Pageable)
+to {GET [/payments/valid, /payments/valid/]}: There is already 'paymentsController' bean method
+com.gce.ba.homework.controller.PaymentsController#getValidPayments(Pageable, HttpServletRequest) mapped.
+2020-03-13 | 09:54:57.896 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 09:54:57.904 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 09:54:57.905 | restartedMain |  INFO | o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl | HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-03-13 | 09:54:58.168 | restartedMain |  WARN | o.s.b.f.s.DisposableBeanAdapter | Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-03-13 | 09:54:58.269 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-4 - Shutdown initiated...
+2020-03-13 | 09:54:58.278 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-4 - Shutdown completed.
+2020-03-13 | 09:54:58.279 | restartedMain |  INFO | o.a.c.c.StandardService | Stopping service [Tomcat]
+2020-03-13 | 09:54:58.404 | restartedMain |  INFO | o.s.b.a.l.ConditionEvaluationReportLoggingListener | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-13 | 09:54:58.432 | restartedMain | ERROR | o.s.b.SpringApplication | Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'paymentsController' method 
+com.gce.ba.homework.controller.PaymentsController#getValidPaymentsByAmount(Double, HttpServletRequest, Pageable)
+to {GET [/payments/valid, /payments/valid/]}: There is already 'paymentsController' bean method
+com.gce.ba.homework.controller.PaymentsController#getValidPayments(Pageable, HttpServletRequest) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at com.gce.ba.homework.HomeworkApplication.main(HomeworkApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'paymentsController' method 
+com.gce.ba.homework.controller.PaymentsController#getValidPaymentsByAmount(Double, HttpServletRequest, Pageable)
+to {GET [/payments/valid, /payments/valid/]}: There is already 'paymentsController' bean method
+com.gce.ba.homework.controller.PaymentsController#getValidPayments(Pageable, HttpServletRequest) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:632) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:599) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:318) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:379) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:78) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:288) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:286) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:258) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:217) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:205) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:190) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	... 21 common frames omitted
+2020-03-13 | 09:55:04.022 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 34648 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 09:55:04.033 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 09:55:04.246 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 09:55:04.247 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 09:55:04.248 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 09:55:05.617 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 09:55:05.756 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 123ms. Found 1 JPA repository interfaces.
+2020-03-13 | 09:55:07.000 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8087 (http)
+2020-03-13 | 09:55:07.016 | restartedMain |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-03-13 | 09:55:07.017 | restartedMain |  INFO | o.a.c.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 | 09:55:07.187 | restartedMain |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-03-13 | 09:55:07.188 | restartedMain |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 2940 ms
+2020-03-13 | 09:55:07.277 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-03-13 | 09:55:07.478 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-03-13 | 09:55:07.494 | restartedMain |  INFO | o.s.b.a.h.H2ConsoleAutoConfiguration | H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-03-13 | 09:55:07.719 | restartedMain |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 | 09:55:07.839 | restartedMain |  INFO | org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-13 | 09:55:08.071 | restartedMain |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-13 | 09:55:08.268 | restartedMain |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-13 | 09:55:09.502 | restartedMain |  INFO | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 | 09:55:09.514 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 09:55:09.540 | restartedMain |  WARN | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2020-03-13 | 09:55:10.376 | restartedMain |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-13 | 09:55:10.475 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 09:55:10.639 | restartedMain |  WARN | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'paymentsController' method 
+com.gce.ba.homework.controller.PaymentsController#getValidPaymentsByAmount(Double, HttpServletRequest, Pageable)
+to {GET [/payments/valid, /payments/valid/]}: There is already 'paymentsController' bean method
+com.gce.ba.homework.controller.PaymentsController#getValidPayments(Pageable, HttpServletRequest) mapped.
+2020-03-13 | 09:55:10.640 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 09:55:10.641 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 09:55:10.641 | restartedMain |  INFO | o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl | HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-03-13 | 09:55:10.896 | restartedMain |  WARN | o.s.b.f.s.DisposableBeanAdapter | Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-03-13 | 09:55:10.900 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2020-03-13 | 09:55:10.924 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Shutdown completed.
+2020-03-13 | 09:55:10.931 | restartedMain |  INFO | o.a.c.c.StandardService | Stopping service [Tomcat]
+2020-03-13 | 09:55:10.959 | restartedMain |  INFO | o.s.b.a.l.ConditionEvaluationReportLoggingListener | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-13 | 09:55:10.988 | restartedMain | ERROR | o.s.b.SpringApplication | Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'paymentsController' method 
+com.gce.ba.homework.controller.PaymentsController#getValidPaymentsByAmount(Double, HttpServletRequest, Pageable)
+to {GET [/payments/valid, /payments/valid/]}: There is already 'paymentsController' bean method
+com.gce.ba.homework.controller.PaymentsController#getValidPayments(Pageable, HttpServletRequest) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.gce.ba.homework.HomeworkApplication.main(HomeworkApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'paymentsController' method 
+com.gce.ba.homework.controller.PaymentsController#getValidPaymentsByAmount(Double, HttpServletRequest, Pageable)
+to {GET [/payments/valid, /payments/valid/]}: There is already 'paymentsController' bean method
+com.gce.ba.homework.controller.PaymentsController#getValidPayments(Pageable, HttpServletRequest) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:632)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:599)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:318)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:379)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:78)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:288)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:286)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:258)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:217)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:205)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:190)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 21 common frames omitted
+2020-03-13 | 09:55:47.949 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 12384 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 09:55:47.952 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 09:55:48.753 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 09:55:48.814 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 52ms. Found 1 JPA repository interfaces.
+2020-03-13 | 09:55:49.078 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8087 (http)
+2020-03-13 | 09:55:49.080 | restartedMain |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-03-13 | 09:55:49.082 | restartedMain |  INFO | o.a.c.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 | 09:55:49.129 | restartedMain |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-03-13 | 09:55:49.130 | restartedMain |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 1170 ms
+2020-03-13 | 09:55:49.190 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-5 - Starting...
+2020-03-13 | 09:55:49.260 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-5 - Start completed.
+2020-03-13 | 09:55:49.262 | restartedMain |  INFO | o.s.b.a.h.H2ConsoleAutoConfiguration | H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-03-13 | 09:55:49.385 | restartedMain |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 | 09:55:49.406 | restartedMain |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-13 | 09:55:49.592 | restartedMain |  INFO | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 | 09:55:49.593 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 09:55:49.606 | restartedMain |  WARN | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2020-03-13 | 09:55:49.854 | restartedMain |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-13 | 09:55:49.892 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 09:55:50.461 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8087 (http) with context path ''
+2020-03-13 | 09:55:50.690 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Started HomeworkApplication in 3.032 seconds (JVM running for 3091.268)
+2020-03-13 | 09:55:50.917 | restartedMain |  INFO | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener | Condition evaluation unchanged
+2020-03-13 | 09:55:58.148 | main |  INFO | c.g.b.h.HomeworkApplicationTests | Starting HomeworkApplicationTests on GCein with PID 20136 (started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 09:55:58.153 | main |  INFO | c.g.b.h.HomeworkApplicationTests | No active profile set, falling back to default profiles: default
+2020-03-13 | 09:56:00.679 | main |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 09:56:00.881 | main |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 178ms. Found 1 JPA repository interfaces.
+2020-03-13 | 09:56:26.039 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 34052 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 09:56:26.044 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 09:56:26.176 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 09:56:26.181 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 09:56:26.181 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 09:56:27.572 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 09:56:27.698 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 113ms. Found 1 JPA repository interfaces.
+2020-03-13 | 09:57:10.124 | http-nio-8087-exec-7 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 | 09:57:10.131 | http-nio-8087-exec-7 |  INFO | o.s.w.s.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2020-03-13 | 09:57:10.145 | http-nio-8087-exec-7 |  INFO | o.s.w.s.DispatcherServlet | Completed initialization in 9 ms
+2020-03-13 | 09:57:10.621 | http-nio-8087-exec-7 |  INFO | c.g.b.h.a.LoggingHandler | Method: createPayment User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 09:57:12.024 | http-nio-8087-exec-8 |  INFO | c.g.b.h.a.LoggingHandler | Method: createPayment User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 09:57:13.707 | pool-3-thread-1 |  INFO | c.g.b.h.s.n.PaymentEventProcessor | External service notification status is TRUE that payment type TYPE2 was successfully SAVED
+2020-03-13 | 09:57:13.734 | pool-4-thread-1 |  INFO | c.g.b.h.s.n.PaymentEventProcessor | External service notification status is TRUE that payment type TYPE2 was successfully SAVED
+2020-03-13 | 09:57:56.397 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 25072 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 09:57:56.403 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 09:57:56.551 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 09:57:56.552 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 09:57:56.553 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 09:57:57.827 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 09:57:57.985 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 143ms. Found 1 JPA repository interfaces.
+2020-03-13 | 09:59:32.202 | Thread-21 |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 09:59:32.223 | Thread-21 |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 09:59:32.225 | Thread-21 |  INFO | o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl | HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-03-13 | 09:59:32.456 | Thread-21 |  WARN | o.s.b.f.s.DisposableBeanAdapter | Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-03-13 | 09:59:32.468 | Thread-21 |  INFO | c.z.h.HikariDataSource | HikariPool-5 - Shutdown initiated...
+2020-03-13 | 09:59:32.480 | Thread-21 |  INFO | c.z.h.HikariDataSource | HikariPool-5 - Shutdown completed.
+2020-03-13 | 09:59:33.698 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 12384 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 09:59:33.701 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 09:59:34.335 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 09:59:34.457 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 121ms. Found 1 JPA repository interfaces.
+2020-03-13 | 09:59:34.776 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8087 (http)
+2020-03-13 | 09:59:34.780 | restartedMain |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-03-13 | 09:59:34.781 | restartedMain |  INFO | o.a.c.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 | 09:59:34.833 | restartedMain |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-03-13 | 09:59:34.836 | restartedMain |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 1127 ms
+2020-03-13 | 09:59:34.871 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-6 - Starting...
+2020-03-13 | 09:59:34.879 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-6 - Start completed.
+2020-03-13 | 09:59:34.885 | restartedMain |  INFO | o.s.b.a.h.H2ConsoleAutoConfiguration | H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-03-13 | 09:59:34.983 | restartedMain |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 | 09:59:35.016 | restartedMain |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-13 | 09:59:35.208 | restartedMain |  INFO | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 | 09:59:35.214 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 09:59:35.231 | restartedMain |  WARN | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2020-03-13 | 09:59:35.496 | restartedMain |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-13 | 09:59:35.585 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 09:59:36.505 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8087 (http) with context path ''
+2020-03-13 | 09:59:36.849 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Started HomeworkApplication in 3.389 seconds (JVM running for 3317.427)
+2020-03-13 | 09:59:36.976 | restartedMain |  INFO | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener | Condition evaluation unchanged
+2020-03-13 | 09:59:41.110 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 8660 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 09:59:41.148 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 09:59:41.291 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 09:59:41.292 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 09:59:41.293 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 09:59:42.919 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 09:59:43.028 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 98ms. Found 1 JPA repository interfaces.
+2020-03-13 | 09:59:43.876 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8087 (http)
+2020-03-13 | 09:59:43.887 | restartedMain |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-03-13 | 09:59:43.888 | restartedMain |  INFO | o.a.c.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 | 09:59:44.043 | restartedMain |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-03-13 | 09:59:44.043 | restartedMain |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 2750 ms
+2020-03-13 | 09:59:44.100 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-03-13 | 09:59:44.240 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-03-13 | 09:59:44.248 | restartedMain |  INFO | o.s.b.a.h.H2ConsoleAutoConfiguration | H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-03-13 | 09:59:44.447 | restartedMain |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 | 09:59:44.569 | restartedMain |  INFO | org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-13 | 09:59:44.735 | restartedMain |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-13 | 09:59:44.868 | restartedMain |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-13 | 09:59:45.864 | restartedMain |  INFO | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 | 09:59:45.873 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 09:59:45.895 | restartedMain |  WARN | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2020-03-13 | 09:59:46.557 | restartedMain |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-13 | 09:59:46.650 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 09:59:46.973 | restartedMain |  INFO | o.a.c.c.StandardService | Stopping service [Tomcat]
+2020-03-13 | 09:59:46.978 | restartedMain |  WARN | o.a.c.l.WebappClassLoaderBase | The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.4/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@11.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.4/java.lang.Thread.run(Thread.java:834)
+2020-03-13 | 09:59:46.979 | restartedMain |  WARN | o.a.c.l.WebappClassLoaderBase | The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.4/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.4/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:458)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.4/java.lang.Thread.run(Thread.java:834)
+2020-03-13 | 09:59:46.985 | restartedMain |  INFO | o.s.b.a.l.ConditionEvaluationReportLoggingListener | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-13 | 09:59:46.990 | restartedMain | ERROR | o.s.b.d.LoggingFailureAnalysisReporter | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8087 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8087 or configure this application to listen on another port.
+
+2020-03-13 | 09:59:46.993 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 09:59:46.995 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 09:59:46.996 | restartedMain |  INFO | o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl | HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-03-13 | 09:59:47.224 | restartedMain |  WARN | o.s.b.f.s.DisposableBeanAdapter | Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-03-13 | 09:59:47.224 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2020-03-13 | 09:59:47.231 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Shutdown completed.
+2020-03-13 | 10:00:11.240 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 35688 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:00:11.248 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:00:11.384 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 10:00:11.386 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 10:00:11.387 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 10:00:12.617 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 10:00:12.793 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 162ms. Found 1 JPA repository interfaces.
+2020-03-13 | 10:01:01.836 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 16040 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:01:01.845 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:01:02.071 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 10:01:02.072 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 10:01:02.073 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 10:01:03.357 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 10:01:03.493 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 121ms. Found 1 JPA repository interfaces.
+2020-03-13 | 10:02:48.187 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 23028 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:02:48.197 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:02:48.379 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 10:02:48.380 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 10:02:48.381 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 10:02:49.714 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 10:02:49.860 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 133ms. Found 1 JPA repository interfaces.
+2020-03-13 | 10:03:48.102 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 22520 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:03:48.133 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:03:48.403 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 10:03:48.404 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 10:03:48.404 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 10:03:50.073 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 10:03:50.177 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 93ms. Found 1 JPA repository interfaces.
+2020-03-13 | 10:03:51.096 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8087 (http)
+2020-03-13 | 10:03:51.110 | restartedMain |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-03-13 | 10:03:51.110 | restartedMain |  INFO | o.a.c.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 | 10:03:51.275 | restartedMain |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-03-13 | 10:03:51.276 | restartedMain |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 2872 ms
+2020-03-13 | 10:03:51.330 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-03-13 | 10:03:51.467 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-03-13 | 10:03:51.474 | restartedMain |  INFO | o.s.b.a.h.H2ConsoleAutoConfiguration | H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-03-13 | 10:03:51.669 | restartedMain |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 | 10:03:51.780 | restartedMain |  INFO | org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-13 | 10:03:51.945 | restartedMain |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-13 | 10:03:52.079 | restartedMain |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-13 | 10:03:52.990 | restartedMain |  INFO | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 | 10:03:52.999 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 10:03:53.024 | restartedMain |  WARN | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2020-03-13 | 10:03:53.716 | restartedMain |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-13 | 10:03:53.794 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:03:54.113 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8087 (http) with context path ''
+2020-03-13 | 10:03:54.119 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Started HomeworkApplication in 8.32 seconds (JVM running for 14.209)
+2020-03-13 | 10:04:36.052 | Thread-1 |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:04:36.055 | Thread-1 |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 10:04:36.056 | Thread-1 |  INFO | o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl | HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-03-13 | 10:04:36.279 | Thread-1 |  WARN | o.s.b.f.s.DisposableBeanAdapter | Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-03-13 | 10:04:36.287 | Thread-1 |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2020-03-13 | 10:04:36.309 | Thread-1 |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Shutdown completed.
+2020-03-13 | 10:05:12.184 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 24048 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:05:12.191 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:05:12.413 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 10:05:12.416 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 10:05:12.417 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 10:05:14.186 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 10:05:14.352 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 151ms. Found 1 JPA repository interfaces.
+2020-03-13 | 10:06:17.807 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 23944 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:06:17.815 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:06:17.943 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 10:06:17.944 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 10:06:17.944 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 10:06:19.338 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 10:06:19.484 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 129ms. Found 1 JPA repository interfaces.
+2020-03-13 | 10:07:14.182 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 32108 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:07:14.191 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:07:14.315 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 10:07:14.316 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 10:07:14.316 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 10:07:15.508 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 10:07:15.637 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 115ms. Found 1 JPA repository interfaces.
+2020-03-13 | 10:07:58.394 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 16784 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:07:58.402 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:07:58.585 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 10:07:58.586 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 10:07:58.587 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 10:07:59.803 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 10:07:59.931 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 115ms. Found 1 JPA repository interfaces.
+2020-03-13 | 10:08:01.143 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8087 (http)
+2020-03-13 | 10:08:01.156 | restartedMain |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-03-13 | 10:08:01.156 | restartedMain |  INFO | o.a.c.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 | 10:08:01.322 | restartedMain |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-03-13 | 10:08:01.322 | restartedMain |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 2735 ms
+2020-03-13 | 10:08:01.377 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-03-13 | 10:08:01.508 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-03-13 | 10:08:01.516 | restartedMain |  INFO | o.s.b.a.h.H2ConsoleAutoConfiguration | H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-03-13 | 10:08:01.729 | restartedMain |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 | 10:08:01.830 | restartedMain |  INFO | org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-13 | 10:08:01.977 | restartedMain |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-13 | 10:08:02.141 | restartedMain |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-13 | 10:08:03.251 | restartedMain |  INFO | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 | 10:08:03.260 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 10:08:03.283 | restartedMain |  WARN | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2020-03-13 | 10:08:03.981 | restartedMain |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-13 | 10:08:04.080 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:08:04.408 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8087 (http) with context path ''
+2020-03-13 | 10:08:04.412 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Started HomeworkApplication in 7.302 seconds (JVM running for 12.119)
+2020-03-13 | 10:09:00.447 | Thread-1 |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:09:00.450 | Thread-1 |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 10:09:00.451 | Thread-1 |  INFO | o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl | HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-03-13 | 10:09:00.677 | Thread-1 |  WARN | o.s.b.f.s.DisposableBeanAdapter | Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-03-13 | 10:09:00.685 | Thread-1 |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2020-03-13 | 10:09:00.708 | Thread-1 |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Shutdown completed.
+2020-03-13 | 10:09:48.148 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 30428 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:09:48.155 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:09:48.393 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 10:09:48.394 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 10:09:48.394 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 10:09:50.170 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 10:09:50.281 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 99ms. Found 1 JPA repository interfaces.
+2020-03-13 | 10:09:51.429 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8087 (http)
+2020-03-13 | 10:09:51.442 | restartedMain |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-03-13 | 10:09:51.442 | restartedMain |  INFO | o.a.c.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 | 10:09:51.610 | restartedMain |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-03-13 | 10:09:51.611 | restartedMain |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 3217 ms
+2020-03-13 | 10:09:51.677 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-03-13 | 10:09:51.832 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-03-13 | 10:09:51.839 | restartedMain |  INFO | o.s.b.a.h.H2ConsoleAutoConfiguration | H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-03-13 | 10:09:52.016 | restartedMain |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 | 10:09:52.106 | restartedMain |  INFO | org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-13 | 10:09:52.244 | restartedMain |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-13 | 10:09:52.375 | restartedMain |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-13 | 10:09:53.348 | restartedMain |  INFO | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 | 10:09:53.360 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 10:09:53.388 | restartedMain |  WARN | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2020-03-13 | 10:09:54.074 | restartedMain |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-13 | 10:09:54.159 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:09:54.511 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8087 (http) with context path ''
+2020-03-13 | 10:09:54.516 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Started HomeworkApplication in 7.599 seconds (JVM running for 13.382)
+2020-03-13 | 10:10:06.392 | http-nio-8087-exec-2 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 | 10:10:06.395 | http-nio-8087-exec-2 |  INFO | o.s.w.s.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2020-03-13 | 10:10:06.415 | http-nio-8087-exec-2 |  INFO | o.s.w.s.DispatcherServlet | Completed initialization in 19 ms
+2020-03-13 | 10:10:06.896 | http-nio-8087-exec-2 |  INFO | c.g.b.h.a.LoggingHandler | Method: createPayment User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 10:10:07.308 | pool-1-thread-1 |  INFO | c.g.b.h.s.n.PaymentEventProcessor | External service notification status is TRUE that payment type TYPE2 was successfully SAVED
+2020-03-13 | 10:10:08.492 | http-nio-8087-exec-3 |  INFO | c.g.b.h.a.LoggingHandler | Method: createPayment User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 10:10:08.727 | pool-2-thread-1 |  INFO | c.g.b.h.s.n.PaymentEventProcessor | External service notification status is TRUE that payment type TYPE2 was successfully SAVED
+2020-03-13 | 10:12:20.169 | http-nio-8087-exec-10 |  WARN | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Resolved [com.gce.ba.homework.exceptions.PaymentNotFoundException: No payment was found!]
+2020-03-13 | 10:12:24.587 | http-nio-8087-exec-1 |  WARN | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; nested exception is java.lang.NumberFormatException: For input string: "er"]
+2020-03-13 | 10:20:40.910 | Thread-1 |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:20:40.913 | Thread-1 |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 10:20:40.914 | Thread-1 |  INFO | o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl | HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-03-13 | 10:20:41.139 | Thread-1 |  WARN | o.s.b.f.s.DisposableBeanAdapter | Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-03-13 | 10:20:41.140 | Thread-1 |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2020-03-13 | 10:20:41.149 | Thread-1 |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Shutdown completed.
+2020-03-13 | 10:21:12.085 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 28304 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:21:12.091 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:21:12.335 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 10:21:12.336 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 10:21:12.337 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 10:21:13.774 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 10:21:13.941 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 152ms. Found 1 JPA repository interfaces.
+2020-03-13 | 10:21:43.026 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 4540 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:21:43.038 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:21:43.328 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 10:21:43.329 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 10:21:43.329 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 10:21:44.834 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 10:21:44.935 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 91ms. Found 1 JPA repository interfaces.
+2020-03-13 | 10:21:45.853 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8087 (http)
+2020-03-13 | 10:21:45.865 | restartedMain |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-03-13 | 10:21:45.865 | restartedMain |  INFO | o.a.c.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 | 10:21:46.023 | restartedMain |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-03-13 | 10:21:46.023 | restartedMain |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 2693 ms
+2020-03-13 | 10:21:46.093 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-03-13 | 10:21:46.256 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-03-13 | 10:21:46.263 | restartedMain |  INFO | o.s.b.a.h.H2ConsoleAutoConfiguration | H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-03-13 | 10:21:46.458 | restartedMain |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 | 10:21:46.573 | restartedMain |  INFO | org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-13 | 10:21:46.767 | restartedMain |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-13 | 10:21:46.935 | restartedMain |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-13 | 10:21:47.949 | restartedMain |  INFO | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 | 10:21:47.959 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 10:21:47.981 | restartedMain |  WARN | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2020-03-13 | 10:21:48.606 | restartedMain |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-13 | 10:21:48.686 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:21:49.050 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8087 (http) with context path ''
+2020-03-13 | 10:21:49.056 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Started HomeworkApplication in 7.368 seconds (JVM running for 9.686)
+2020-03-13 | 10:21:54.180 | http-nio-8087-exec-2 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 | 10:21:54.182 | http-nio-8087-exec-2 |  INFO | o.s.w.s.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2020-03-13 | 10:21:54.195 | http-nio-8087-exec-2 |  INFO | o.s.w.s.DispatcherServlet | Completed initialization in 13 ms
+2020-03-13 | 10:21:54.876 | http-nio-8087-exec-2 |  INFO | c.g.b.h.a.LoggingHandler | Method: createPayment User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 10:21:55.299 | pool-1-thread-1 |  INFO | c.g.b.h.s.n.PaymentEventProcessor | External service notification status is TRUE that payment type TYPE2 was successfully SAVED
+2020-03-13 | 10:21:56.011 | http-nio-8087-exec-3 |  INFO | c.g.b.h.a.LoggingHandler | Method: createPayment User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 10:21:56.237 | pool-2-thread-1 |  INFO | c.g.b.h.s.n.PaymentEventProcessor | External service notification status is TRUE that payment type TYPE2 was successfully SAVED
+2020-03-13 | 10:22:00.775 | http-nio-8087-exec-4 |  WARN | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "valid"]
+2020-03-13 | 10:24:55.489 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Starting PaymentsControllerTest on GCein with PID 10344 (started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:24:55.493 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:24:59.541 | main |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:25:00.198 | main |  INFO | o.s.b.t.m.w.SpringBootMockServletContext | Initializing Spring TestDispatcherServlet ''
+2020-03-13 | 10:25:00.199 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Initializing Servlet ''
+2020-03-13 | 10:25:00.241 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Completed initialization in 41 ms
+2020-03-13 | 10:25:00.342 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Started PaymentsControllerTest in 6.36 seconds (JVM running for 10.623)
+2020-03-13 | 10:25:00.783 | SpringContextShutdownHook |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:26:57.872 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Starting PaymentsControllerTest on GCein with PID 36240 (started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:26:57.876 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:27:01.382 | main |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:27:02.014 | main |  INFO | o.s.b.t.m.w.SpringBootMockServletContext | Initializing Spring TestDispatcherServlet ''
+2020-03-13 | 10:27:02.017 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Initializing Servlet ''
+2020-03-13 | 10:27:02.045 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Completed initialization in 27 ms
+2020-03-13 | 10:27:02.100 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Started PaymentsControllerTest in 5.971 seconds (JVM running for 9.721)
+2020-03-13 | 10:27:02.487 | SpringContextShutdownHook |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:27:49.961 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Starting PaymentsControllerTest on GCein with PID 1752 (started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:27:49.966 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:27:53.481 | main |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:27:54.176 | main |  INFO | o.s.b.t.m.w.SpringBootMockServletContext | Initializing Spring TestDispatcherServlet ''
+2020-03-13 | 10:27:54.177 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Initializing Servlet ''
+2020-03-13 | 10:27:54.216 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Completed initialization in 37 ms
+2020-03-13 | 10:27:54.291 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Started PaymentsControllerTest in 5.301 seconds (JVM running for 10.03)
+2020-03-13 | 10:27:55.061 | SpringContextShutdownHook |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:29:35.664 | Thread-1 |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:29:35.666 | Thread-1 |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 10:29:35.668 | Thread-1 |  INFO | o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl | HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-03-13 | 10:29:35.886 | Thread-1 |  WARN | o.s.b.f.s.DisposableBeanAdapter | Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-03-13 | 10:29:35.891 | Thread-1 |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2020-03-13 | 10:29:35.900 | Thread-1 |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Shutdown completed.
+2020-03-13 | 10:29:37.929 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 4540 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:29:37.930 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:29:38.735 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 10:29:38.802 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 65ms. Found 1 JPA repository interfaces.
+2020-03-13 | 10:29:39.117 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8087 (http)
+2020-03-13 | 10:29:39.118 | restartedMain |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-03-13 | 10:29:39.119 | restartedMain |  INFO | o.a.c.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 | 10:29:39.174 | restartedMain |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-03-13 | 10:29:39.175 | restartedMain |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 1236 ms
+2020-03-13 | 10:29:39.205 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-2 - Starting...
+2020-03-13 | 10:29:39.209 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-2 - Start completed.
+2020-03-13 | 10:29:39.209 | restartedMain |  INFO | o.s.b.a.h.H2ConsoleAutoConfiguration | H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-03-13 | 10:29:39.316 | restartedMain |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 | 10:29:39.335 | restartedMain |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-13 | 10:29:39.622 | restartedMain |  INFO | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 | 10:29:39.622 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 10:29:39.640 | restartedMain |  WARN | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2020-03-13 | 10:29:39.990 | restartedMain |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-13 | 10:29:40.049 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:29:40.407 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8087 (http) with context path ''
+2020-03-13 | 10:29:40.409 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Started HomeworkApplication in 2.566 seconds (JVM running for 481.038)
+2020-03-13 | 10:29:40.452 | restartedMain |  INFO | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener | Condition evaluation unchanged
+2020-03-13 | 10:29:48.909 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Starting PaymentsControllerTest on GCein with PID 33320 (started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:29:48.932 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:29:52.255 | main |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:29:52.834 | main |  INFO | o.s.b.t.m.w.SpringBootMockServletContext | Initializing Spring TestDispatcherServlet ''
+2020-03-13 | 10:29:52.836 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Initializing Servlet ''
+2020-03-13 | 10:29:52.869 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Completed initialization in 32 ms
+2020-03-13 | 10:29:52.930 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Started PaymentsControllerTest in 5.691 seconds (JVM running for 10.019)
+2020-03-13 | 10:29:53.474 | SpringContextShutdownHook |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:30:46.102 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Starting PaymentsControllerTest on GCein with PID 20208 (started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:30:46.106 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:30:49.675 | main |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:30:50.260 | main |  INFO | o.s.b.t.m.w.SpringBootMockServletContext | Initializing Spring TestDispatcherServlet ''
+2020-03-13 | 10:30:50.261 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Initializing Servlet ''
+2020-03-13 | 10:30:50.292 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Completed initialization in 30 ms
+2020-03-13 | 10:30:50.354 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Started PaymentsControllerTest in 5.661 seconds (JVM running for 9.996)
+2020-03-13 | 10:30:50.545 | SpringContextShutdownHook |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:31:56.215 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Starting PaymentsControllerTest on GCein with PID 15796 (started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:31:56.220 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:31:59.669 | main |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:32:00.367 | main |  INFO | o.s.b.t.m.w.SpringBootMockServletContext | Initializing Spring TestDispatcherServlet ''
+2020-03-13 | 10:32:00.368 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Initializing Servlet ''
+2020-03-13 | 10:32:00.407 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Completed initialization in 39 ms
+2020-03-13 | 10:32:00.483 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Started PaymentsControllerTest in 5.334 seconds (JVM running for 9.195)
+2020-03-13 | 10:32:00.707 | SpringContextShutdownHook |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:33:02.650 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Starting PaymentsControllerTest on GCein with PID 24488 (started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:33:02.655 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:33:06.492 | main |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:33:07.662 | main |  INFO | o.s.b.t.m.w.SpringBootMockServletContext | Initializing Spring TestDispatcherServlet ''
+2020-03-13 | 10:33:07.663 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Initializing Servlet ''
+2020-03-13 | 10:33:07.712 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Completed initialization in 48 ms
+2020-03-13 | 10:33:07.852 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Started PaymentsControllerTest in 6.618 seconds (JVM running for 10.886)
+2020-03-13 | 10:33:08.144 | SpringContextShutdownHook |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:34:19.395 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Starting PaymentsControllerTest on GCein with PID 35380 (started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:34:19.421 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:36:23.395 | main |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:37:11.585 | main |  INFO | o.s.b.t.m.w.SpringBootMockServletContext | Initializing Spring TestDispatcherServlet ''
+2020-03-13 | 10:37:11.586 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Initializing Servlet ''
+2020-03-13 | 10:37:11.671 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Completed initialization in 84 ms
+2020-03-13 | 10:37:11.868 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Started PaymentsControllerTest in 176.102 seconds (JVM running for 185.301)
+2020-03-13 | 10:37:12.762 | SpringContextShutdownHook |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:37:25.316 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Starting PaymentsControllerTest on GCein with PID 27592 (started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:37:25.320 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:37:28.749 | main |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:37:29.334 | main |  INFO | o.s.b.t.m.w.SpringBootMockServletContext | Initializing Spring TestDispatcherServlet ''
+2020-03-13 | 10:37:29.335 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Initializing Servlet ''
+2020-03-13 | 10:37:29.371 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Completed initialization in 35 ms
+2020-03-13 | 10:37:29.433 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Started PaymentsControllerTest in 5.168 seconds (JVM running for 9.422)
+2020-03-13 | 10:37:30.025 | SpringContextShutdownHook |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:37:51.567 | main |  INFO | c.g.b.h.c.PaymentOneControllerTest | Starting PaymentOneControllerTest on GCein with PID 34744 (started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:37:51.571 | main |  INFO | c.g.b.h.c.PaymentOneControllerTest | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:37:54.824 | main |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:37:55.547 | main |  INFO | o.s.b.t.m.w.SpringBootMockServletContext | Initializing Spring TestDispatcherServlet ''
+2020-03-13 | 10:37:55.548 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Initializing Servlet ''
+2020-03-13 | 10:37:55.577 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Completed initialization in 29 ms
+2020-03-13 | 10:37:55.642 | main |  INFO | c.g.b.h.c.PaymentOneControllerTest | Started PaymentOneControllerTest in 5.05 seconds (JVM running for 9.245)
+2020-03-13 | 10:37:56.931 | main |  INFO | o.s.b.t.c.SpringBootTestContextBootstrapper | Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.gce.ba.homework.HomeworkApplicationTests], using SpringBootContextLoader
+2020-03-13 | 10:37:56.941 | main |  INFO | o.s.t.c.s.AbstractContextLoader | Could not detect default resource locations for test class [com.gce.ba.homework.HomeworkApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-03-13 | 10:37:56.942 | main |  INFO | o.s.t.c.s.AnnotationConfigContextLoaderUtils | Could not detect default configuration classes for test class [com.gce.ba.homework.HomeworkApplicationTests]: HomeworkApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-03-13 | 10:37:56.954 | main |  INFO | o.s.b.t.c.SpringBootTestContextBootstrapper | Found @SpringBootConfiguration com.gce.ba.homework.HomeworkApplication for test class com.gce.ba.homework.HomeworkApplicationTests
+2020-03-13 | 10:37:56.959 | main |  INFO | o.s.b.t.c.SpringBootTestContextBootstrapper | Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-03-13 | 10:37:56.962 | main |  INFO | o.s.b.t.c.SpringBootTestContextBootstrapper | Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3688baab, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4fe2dd02, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6ba060af, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5817f1ca, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2b395581, org.springframework.test.context.transaction.TransactionalTestExecutionListener@726a8729, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1a2724d3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7dd91ffc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1c2dd89b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3ad847f8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@19faedcc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2c6927f0]
+2020-03-13 | 10:37:57.051 | main |  INFO | c.g.b.h.HomeworkApplicationTests | Starting HomeworkApplicationTests on GCein with PID 34744 (started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:37:57.052 | main |  INFO | c.g.b.h.HomeworkApplicationTests | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:37:57.867 | main |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 10:37:58.105 | main |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 216ms. Found 1 JPA repository interfaces.
+2020-03-13 | 10:37:59.080 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-03-13 | 10:37:59.598 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-03-13 | 10:37:59.908 | main |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 | 10:38:00.259 | main |  INFO | org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-13 | 10:38:00.388 | main |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-13 | 10:38:01.212 | main |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-13 | 10:38:02.465 | main |  INFO | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 | 10:38:02.479 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 10:38:04.026 | main |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-13 | 10:38:04.174 | main |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:38:04.806 | main |  INFO | c.g.b.h.HomeworkApplicationTests | Started HomeworkApplicationTests in 7.837 seconds (JVM running for 18.409)
+2020-03-13 | 10:38:04.972 | main |  INFO | o.s.b.t.a.w.s.WebMvcTestContextBootstrapper | Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.gce.ba.homework.controller.PaymentsControllerTest], using SpringBootContextLoader
+2020-03-13 | 10:38:04.975 | main |  INFO | o.s.t.c.s.AbstractContextLoader | Could not detect default resource locations for test class [com.gce.ba.homework.controller.PaymentsControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-03-13 | 10:38:04.978 | main |  INFO | o.s.t.c.s.AnnotationConfigContextLoaderUtils | Could not detect default configuration classes for test class [com.gce.ba.homework.controller.PaymentsControllerTest]: PaymentsControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-03-13 | 10:38:04.991 | main |  INFO | o.s.b.t.c.SpringBootTestContextBootstrapper | Found @SpringBootConfiguration com.gce.ba.homework.HomeworkApplication for test class com.gce.ba.homework.controller.PaymentsControllerTest
+2020-03-13 | 10:38:04.992 | main |  INFO | o.s.b.t.a.w.s.WebMvcTestContextBootstrapper | Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-03-13 | 10:38:04.992 | main |  INFO | o.s.b.t.a.w.s.WebMvcTestContextBootstrapper | Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@307ba188, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@34f3c920, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@73f0b216, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@73bd146c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1ea78c72, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3437fc4f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@42a198dd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5924ea91, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7bc239db, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@709c6768, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3e356ed6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@403b7be3]
+2020-03-13 | 10:38:05.075 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Starting PaymentsControllerTest on GCein with PID 34744 (started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:38:05.077 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:38:05.882 | main |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:38:06.146 | main |  INFO | o.s.b.t.m.w.SpringBootMockServletContext | Initializing Spring TestDispatcherServlet ''
+2020-03-13 | 10:38:06.147 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Initializing Servlet ''
+2020-03-13 | 10:38:06.168 | main |  INFO | o.s.t.w.s.TestDispatcherServlet | Completed initialization in 21 ms
+2020-03-13 | 10:38:06.197 | main |  INFO | c.g.b.h.c.PaymentsControllerTest | Started PaymentsControllerTest in 1.199 seconds (JVM running for 19.8)
+2020-03-13 | 10:38:06.394 | SpringContextShutdownHook |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:38:06.395 | SpringContextShutdownHook |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:38:06.397 | SpringContextShutdownHook |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:38:06.399 | SpringContextShutdownHook |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 10:38:06.400 | SpringContextShutdownHook |  INFO | o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl | HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-03-13 | 10:38:06.422 | SpringContextShutdownHook |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2020-03-13 | 10:38:06.450 | SpringContextShutdownHook |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Shutdown completed.
+2020-03-13 | 10:39:01.591 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 12196 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:39:01.596 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:39:01.749 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 10:39:01.750 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 10:39:01.750 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 10:39:03.312 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 10:39:03.490 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 160ms. Found 1 JPA repository interfaces.
+2020-03-13 | 10:39:55.627 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 13124 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:39:55.632 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:39:55.755 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 10:39:55.760 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 10:39:55.760 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 10:39:57.018 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 10:39:57.136 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 106ms. Found 1 JPA repository interfaces.
+2020-03-13 | 10:39:58.104 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8087 (http)
+2020-03-13 | 10:39:58.117 | restartedMain |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-03-13 | 10:39:58.118 | restartedMain |  INFO | o.a.c.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 | 10:39:58.299 | restartedMain |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-03-13 | 10:39:58.300 | restartedMain |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 2540 ms
+2020-03-13 | 10:39:58.362 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-03-13 | 10:39:58.492 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-03-13 | 10:39:58.502 | restartedMain |  INFO | o.s.b.a.h.H2ConsoleAutoConfiguration | H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-03-13 | 10:39:58.750 | restartedMain |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 | 10:39:58.861 | restartedMain |  INFO | org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-13 | 10:39:59.032 | restartedMain |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-13 | 10:39:59.191 | restartedMain |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-13 | 10:40:00.249 | restartedMain |  INFO | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 | 10:40:00.258 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 10:40:00.282 | restartedMain |  WARN | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2020-03-13 | 10:40:00.945 | restartedMain |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-13 | 10:40:01.037 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:40:01.354 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8087 (http) with context path ''
+2020-03-13 | 10:40:01.359 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Started HomeworkApplication in 7.347 seconds (JVM running for 11.939)
+2020-03-13 | 10:40:07.901 | http-nio-8087-exec-1 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 | 10:40:07.902 | http-nio-8087-exec-1 |  INFO | o.s.w.s.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2020-03-13 | 10:40:07.916 | http-nio-8087-exec-1 |  INFO | o.s.w.s.DispatcherServlet | Completed initialization in 13 ms
+2020-03-13 | 10:40:08.570 | http-nio-8087-exec-1 |  INFO | c.g.b.h.a.LoggingHandler | Method: createPayment User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 10:40:09.823 | http-nio-8087-exec-3 |  INFO | c.g.b.h.a.LoggingHandler | Method: createPayment User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 10:40:11.319 | pool-1-thread-1 |  INFO | c.g.b.h.s.n.PaymentEventProcessor | External service notification status is TRUE that payment type TYPE2 was successfully SAVED
+2020-03-13 | 10:40:11.337 | pool-2-thread-1 |  INFO | c.g.b.h.s.n.PaymentEventProcessor | External service notification status is TRUE that payment type TYPE2 was successfully SAVED
+2020-03-13 | 10:40:16.346 | http-nio-8087-exec-4 |  INFO | c.g.b.h.a.LoggingHandler | Method: getValidPayments User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 10:40:21.416 | http-nio-8087-exec-5 |  INFO | c.g.b.h.a.LoggingHandler | Method: getValidPayments User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 10:40:26.095 | http-nio-8087-exec-6 |  INFO | c.g.b.h.a.LoggingHandler | Method: getValidPayments User ip address: 0:0:0:0:0:0:0:1, country - null, city - null

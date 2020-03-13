@@ -13,5 +13,5 @@ public interface PaymentRepository extends PagingAndSortingRepository<Payment, I
 
     List<Payment> findByValidity(boolean validity, Pageable pageable);
 
-    Optional<Payment> findByIdAndValidity(int id, boolean validity);
+    List<Payment> findAllByValidityAndAmount(boolean validity, double amoun, Pageable pageable);
 }

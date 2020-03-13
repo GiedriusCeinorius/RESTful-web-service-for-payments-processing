@@ -64,6 +64,7 @@ class PaymentsControllerTest {
         payment.setDebtor_iban("AD1400080001001234567890");
         payment.setCreditor_iban("AT483200000012345864");
         payment.setDetails("Important details");
+        payment.setValidity(true);
         paymentList.add(payment);
 
         specificPayment = new SpecificPayment();
@@ -92,9 +93,9 @@ class PaymentsControllerTest {
 
     @Test
     void getValidPayments() throws Exception {
-        when(commonService.getPayments(any(Pageable.class))).thenReturn(paymentList);
+        when(commonService.getValidPaymentsFilterByAmount(any(Double.class), any(Pageable.class))).thenReturn(paymentList);
 
-        mockMvc.perform(MockMvcRequestBuilders.get("/payments/").accept(MediaType.APPLICATION_JSON))
+        mockMvc.perform(MockMvcRequestBuilders.get("/payments").param("amount", String.valueOf(23.23)).accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andExpect(content().json(objectMapper.writeValueAsString(paymentList)))
                 .andExpect(jsonPath("$[0].id", is(1)))

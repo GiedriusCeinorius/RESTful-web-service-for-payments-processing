@@ -9,11 +9,11 @@ import java.util.List;
 
 public interface CommonService {
 
-    List<Payment> getPayments(Pageable pageable) throws PaymentNotFoundException;
-
     SpecificPayment getSpecificPaymentInfo(Integer id) throws PaymentNotFoundException;
 
     Payment getPayment(Integer id) throws PaymentNotFoundException;
+
+    List<Payment> getValidPaymentsFilterByAmount(Double amount, Pageable pageable) throws PaymentNotFoundException;
 
 
 }

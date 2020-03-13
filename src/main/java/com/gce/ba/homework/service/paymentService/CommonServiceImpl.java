@@ -7,7 +7,9 @@ import com.gce.ba.homework.exceptions.PaymentNotFoundException;
 import com.gce.ba.homework.repository.PaymentRepository;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+
 import java.util.List;
+
 
 @Service
 public class CommonServiceImpl implements CommonService {
@@ -23,16 +25,6 @@ public class CommonServiceImpl implements CommonService {
     }
 
     @Override
-    public List<Payment> getPayments(Pageable pageable) throws PaymentNotFoundException {
-        List<Payment> validPayments = paymentRepository.findByValidity(true, pageable);
-        if (validPayments.isEmpty()) {
-            throw new PaymentNotFoundException(NO_PAYMENT_WAS_FOUND);
-        } else {
-            return validPayments;
-        }
-    }
-
-    @Override
     public SpecificPayment getSpecificPaymentInfo(Integer id) throws PaymentNotFoundException {
         Payment payment = getPayment(id);
         return canceledPaymentMapper.toDto(payment);
@@ -43,4 +35,21 @@ public class CommonServiceImpl implements CommonService {
     public Payment getPayment(Integer id) throws PaymentNotFoundException {
         return paymentRepository.findById(id).orElseThrow(() -> new PaymentNotFoundException(NO_PAYMENT_WAS_FOUND));
     }
+
+    @Override
+    public List<Payment> getValidPaymentsFilterByAmount(Double amount, Pageable pageable) throws PaymentNotFoundException {
+        List<Payment> validPayments;
+        if (amount != null) {
+            validPayments = paymentRepository.findAllByValidityAndAmount(true, amount, pageable);
+        } else {
+            validPayments = paymentRepository.findByValidity(true, pageable);
+        }
+        if (validPayments.isEmpty()) {
+            throw new PaymentNotFoundException(NO_PAYMENT_WAS_FOUND);
+        } else {
+            return validPayments;
+        }
+    }
 }
+
+
