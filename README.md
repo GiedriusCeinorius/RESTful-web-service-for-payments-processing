@@ -1,6 +1,6 @@
 # RESTful-web-service-for-payments-processing
 
- Simple RESTful web servicefor apments processing.
+ Simple RESTful web service for apments processing.
 
 ## Prerequisites
 
@@ -9,7 +9,7 @@
 
 ## Running tests
 
-Note: Note than 3 payment (with id's: 1, 2, 3) are already in the system and you can query them, payment with id - 3 is canceled:
+Note: Note that 3 payments (with id's: 1, 2, 3) are already in the system and you can query them, payment with id - 3 is canceled:
 
 **1. To create payment TYPE1 (amount (only applicable for EUR), currency, debtor_iban, creditor_iban, details are required):**
 
@@ -17,6 +17,7 @@ Note: Note than 3 payment (with id's: 1, 2, 3) are already in the system and you
 - Request Method-POST
 - Content-Type-application/json 
 
+```	
 {
     "amount": 34.44,
     "debtor_iban": "CH93 0076 2011 6238 5295 7",
@@ -32,6 +33,7 @@ Note: Note than 3 payment (with id's: 1, 2, 3) are already in the system and you
 - Request Method-POST
 - Content-Type-application/json 
 
+```
 {
     "amount": 12.99,
     "debtor_iban": "CH93 0076 2011 6238 5295 7",
@@ -46,6 +48,7 @@ Note: Note than 3 payment (with id's: 1, 2, 3) are already in the system and you
 - Request Method-POST
 - Content-Type-application/json 
 
+```
 {
     "amount": 132.00,
     "debtor_iban": "CH93 0076 2011 6238 5295 7",
@@ -61,26 +64,22 @@ Note: Note than 3 payment (with id's: 1, 2, 3) are already in the system and you
 - URI-http://localhost:8087/payments/2
 - Request Method-DELETE
 - Content-Type-application/json 
-```	
 
 **5. To query all payments that aren't canceled:**
 
 - URI-http://localhost:8087/payments
 - Request Method-GET
 - Content-Type-application/json 
-```	
 
-**6. To query all payments that aren't canceled andfilter by amount:**
+**6. To query all payments that aren't canceled and filter them by amount:**
 
 - URI-http://localhost:8087/payments?amount=12.99
 - Request Method-GET
 - Content-Type-application/json 
-```	
 
 **7. Clients country IP and country are logged to logs/spring.log file**
-```	
 
 **8. The fact that ecternal service was votified is saved to database and also logged to log/spring.log file**
-```	
+
 
 

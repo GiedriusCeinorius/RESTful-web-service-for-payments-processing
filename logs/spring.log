@@ -936,3 +936,34 @@ Identify and stop the process that's listening on port 8087 or configure this ap
 2020-03-13 | 10:40:16.346 | http-nio-8087-exec-4 |  INFO | c.g.b.h.a.LoggingHandler | Method: getValidPayments User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
 2020-03-13 | 10:40:21.416 | http-nio-8087-exec-5 |  INFO | c.g.b.h.a.LoggingHandler | Method: getValidPayments User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
 2020-03-13 | 10:40:26.095 | http-nio-8087-exec-6 |  INFO | c.g.b.h.a.LoggingHandler | Method: getValidPayments User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 10:45:42.640 | http-nio-8087-exec-8 |  WARN | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.gce.ba.homework.domain.Payment com.gce.ba.homework.controller.PaymentThreeController.createPayment(com.gce.ba.homework.domain.PaymentThree,javax.servlet.http.HttpServletRequest): [Field error in object 'paymentThree' on field 'bic_code': rejected value [null]; codes [NotNull.paymentThree.bic_code,NotNull.bic_code,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [paymentThree.bic_code,bic_code]; arguments []; default message [bic_code]]; default message [BIC_code required!]] ]
+2020-03-13 | 10:45:58.966 | http-nio-8087-exec-10 |  INFO | c.g.b.h.a.LoggingHandler | Method: createPayment User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 10:46:04.087 | http-nio-8087-exec-1 |  INFO | c.g.b.h.a.LoggingHandler | Method: createPayment User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 10:46:12.968 | http-nio-8087-exec-3 |  INFO | c.g.b.h.a.LoggingHandler | Method: getValidPayments User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 10:46:20.548 | http-nio-8087-exec-4 |  INFO | c.g.b.h.a.LoggingHandler | Method: getValidPayments User ip address: 0:0:0:0:0:0:0:1, country - null, city - null
+2020-03-13 | 10:47:47.662 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Starting HomeworkApplication on GCein with PID 18452 (C:\Users\dell\Desktop\NAUJAS\BAhomework\target\classes started by dell in C:\Users\dell\Desktop\NAUJAS\BAhomework)
+2020-03-13 | 10:47:47.667 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | No active profile set, falling back to default profiles: default
+2020-03-13 | 10:47:47.737 | restartedMain |  INFO | o.s.b.d.r.ChangeableUrls | The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-13 | 10:47:47.739 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 | 10:47:47.741 | restartedMain |  INFO | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 | 10:47:48.808 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 | 10:47:48.925 | restartedMain |  INFO | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 99ms. Found 1 JPA repository interfaces.
+2020-03-13 | 10:47:50.330 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8087 (http)
+2020-03-13 | 10:47:50.345 | restartedMain |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-03-13 | 10:47:50.347 | restartedMain |  INFO | o.a.c.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 | 10:47:50.506 | restartedMain |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-03-13 | 10:47:50.507 | restartedMain |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 2757 ms
+2020-03-13 | 10:47:50.561 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-03-13 | 10:47:50.718 | restartedMain |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-03-13 | 10:47:50.729 | restartedMain |  INFO | o.s.b.a.h.H2ConsoleAutoConfiguration | H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-03-13 | 10:47:50.919 | restartedMain |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 | 10:47:51.001 | restartedMain |  INFO | org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-13 | 10:47:51.140 | restartedMain |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-13 | 10:47:51.274 | restartedMain |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-13 | 10:47:52.214 | restartedMain |  INFO | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 | 10:47:52.226 | restartedMain |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 | 10:47:52.249 | restartedMain |  WARN | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2020-03-13 | 10:47:52.825 | restartedMain |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-13 | 10:47:52.899 | restartedMain |  INFO | o.s.s.c.ThreadPoolTaskExecutor | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 | 10:47:53.171 | restartedMain |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8087 (http) with context path ''
+2020-03-13 | 10:47:53.177 | restartedMain |  INFO | c.g.b.h.HomeworkApplication | Started HomeworkApplication in 6.084 seconds (JVM running for 6.927)
