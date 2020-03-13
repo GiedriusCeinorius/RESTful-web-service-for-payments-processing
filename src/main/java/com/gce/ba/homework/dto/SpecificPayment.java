@@ -5,7 +5,7 @@ import lombok.Data;
 import java.time.LocalDateTime;
 
 @Data
-public class CanceledPaymentDto {
+public class SpecificPayment {
     private int id;
     private double cancelationFee;
     private String cancelationFeeCurrency;

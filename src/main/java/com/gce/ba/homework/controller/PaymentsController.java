@@ -1,7 +1,7 @@
 package com.gce.ba.homework.controller;
 
 import com.gce.ba.homework.domain.*;
-import com.gce.ba.homework.dto.CanceledPaymentDto;
+import com.gce.ba.homework.dto.SpecificPayment;
 import com.gce.ba.homework.exceptions.CancelationNotAvailableException;
 import com.gce.ba.homework.exceptions.PaymentNotFoundException;
 import com.gce.ba.homework.service.paymentService.CommonService;
@@ -31,7 +31,7 @@ public class PaymentsController {
 
 
     @DeleteMapping("/{id}")
-    public CanceledPaymentDto cancelPayment(@PathVariable("id") Integer id, HttpServletRequest request) throws CancelationNotAvailableException, PaymentNotFoundException {
+    public SpecificPayment cancelPayment(@PathVariable("id") Integer id, HttpServletRequest request) throws CancelationNotAvailableException, PaymentNotFoundException {
         Payment payment = commonService.getPayment(id);
         return paymentRegistry.getService(payment.getPaymentType()).recallPayment(payment);
 
@@ -44,7 +44,7 @@ public class PaymentsController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<CanceledPaymentDto> getCanceledPayment(@PathVariable("id") Integer id, HttpServletRequest request) throws PaymentNotFoundException {
-        return new ResponseEntity<>(commonService.getCanceledPayment(id), HttpStatus.OK);
+    public ResponseEntity<SpecificPayment> getSpecificPayment(@PathVariable("id") Integer id, HttpServletRequest request) throws PaymentNotFoundException {
+        return new ResponseEntity<>(commonService.getSpecificPaymentInfo(id), HttpStatus.OK);
     }
 }

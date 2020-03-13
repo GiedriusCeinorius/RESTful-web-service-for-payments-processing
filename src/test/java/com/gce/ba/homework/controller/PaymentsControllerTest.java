@@ -3,7 +3,7 @@ package com.gce.ba.homework.controller;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.gce.ba.homework.domain.Payment;
 import com.gce.ba.homework.domain.PaymentOne;
-import com.gce.ba.homework.dto.CanceledPaymentDto;
+import com.gce.ba.homework.dto.SpecificPayment;
 import com.gce.ba.homework.service.paymentService.CommonService;
 import com.gce.ba.homework.service.paymentService.PaymentRegistry;
 import com.gce.ba.homework.service.paymentService.PaymentService;
@@ -52,7 +52,7 @@ class PaymentsControllerTest {
     private PaymentService paymentService;
 
     private List<Payment> paymentList = new ArrayList<>();
-    private CanceledPaymentDto canceledPaymentDto;
+    private SpecificPayment specificPayment;
     private PaymentOne payment;
 
     @BeforeEach
@@ -66,11 +66,11 @@ class PaymentsControllerTest {
         payment.setDetails("Important details");
         paymentList.add(payment);
 
-        canceledPaymentDto = new CanceledPaymentDto();
-        canceledPaymentDto.setId(2);
-        canceledPaymentDto.setCancelationFee(45.45);
-        canceledPaymentDto.setCancelationDateTime(LocalDateTime.now());
-        canceledPaymentDto.setCancelationFeeCurrency(String.valueOf(Currency.EUR));
+        specificPayment = new SpecificPayment();
+        specificPayment.setId(2);
+        specificPayment.setCancelationFee(45.45);
+        specificPayment.setCancelationDateTime(LocalDateTime.now());
+        specificPayment.setCancelationFeeCurrency(String.valueOf(Currency.EUR));
     }
 
 
@@ -78,11 +78,11 @@ class PaymentsControllerTest {
     void cancelPayment() throws Exception {
         when(commonService.getPayment(any(Integer.class))).thenReturn(payment);
         when(paymentRegistry.getService(any(PaymentType.class))).thenReturn(paymentService);
-        when(paymentService.recallPayment(any(Payment.class))).thenReturn(canceledPaymentDto);
+        when(paymentService.recallPayment(any(Payment.class))).thenReturn(specificPayment);
 
         mockMvc.perform(MockMvcRequestBuilders.delete("/payments/2"))
                 .andExpect(status().isOk())
-                .andExpect(content().json(objectMapper.writeValueAsString(canceledPaymentDto)))
+                .andExpect(content().json(objectMapper.writeValueAsString(specificPayment)))
                 .andExpect(jsonPath("$.id", is(2)))
                 .andExpect(jsonPath("$.cancelationFee", is(45.45)))
                 .andDo(print())
@@ -105,11 +105,11 @@ class PaymentsControllerTest {
 
     @Test
     void getCanceledPayment() throws Exception {
-        when(commonService.getCanceledPayment(any(Integer.class))).thenReturn(canceledPaymentDto);
+        when(commonService.getSpecificPaymentInfo(any(Integer.class))).thenReturn(specificPayment);
 
         mockMvc.perform(MockMvcRequestBuilders.get("/payments/2").accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
-                .andExpect(content().json(objectMapper.writeValueAsString(canceledPaymentDto)))
+                .andExpect(content().json(objectMapper.writeValueAsString(specificPayment)))
                 .andExpect(jsonPath("$.id", is(2)))
                 .andExpect(jsonPath("$.cancelationFee", is(45.45)))
                 .andDo(print())

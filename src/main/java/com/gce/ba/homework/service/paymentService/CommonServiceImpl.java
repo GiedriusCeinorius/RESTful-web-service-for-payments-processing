@@ -1,7 +1,7 @@
 package com.gce.ba.homework.service.paymentService;
 
 import com.gce.ba.homework.domain.Payment;
-import com.gce.ba.homework.dto.CanceledPaymentDto;
+import com.gce.ba.homework.dto.SpecificPayment;
 import com.gce.ba.homework.utils.mapper.CanceledPaymentMapper;
 import com.gce.ba.homework.exceptions.PaymentNotFoundException;
 import com.gce.ba.homework.repository.PaymentRepository;
@@ -33,8 +33,8 @@ public class CommonServiceImpl implements CommonService {
     }
 
     @Override
-    public CanceledPaymentDto getCanceledPayment(Integer id) throws PaymentNotFoundException {
-        Payment payment = paymentRepository.findByIdAndValidity(id, false).orElseThrow(() -> new PaymentNotFoundException(NO_PAYMENT_WAS_FOUND));
+    public SpecificPayment getSpecificPaymentInfo(Integer id) throws PaymentNotFoundException {
+        Payment payment = getPayment(id);
         return canceledPaymentMapper.toDto(payment);
 
     }

@@ -1,7 +1,7 @@
 package com.gce.ba.homework.service.paymentService;
 
 import com.gce.ba.homework.domain.Payment;
-import com.gce.ba.homework.dto.CanceledPaymentDto;
+import com.gce.ba.homework.dto.SpecificPayment;
 import com.gce.ba.homework.exceptions.CancelationNotAvailableException;
 import com.gce.ba.homework.repository.PaymentRepository;
 import com.gce.ba.homework.service.paymentCancelationService.PaymentCancelation;
@@ -29,7 +29,7 @@ public class PaymentThreeService implements PaymentService {
     }
 
     @Override
-    public CanceledPaymentDto recallPayment(Payment payment) throws CancelationNotAvailableException {
+    public SpecificPayment recallPayment(Payment payment) throws CancelationNotAvailableException {
         Payment canceledPayment = paymentCancelation.cancelPayment(payment);
         return canceledPaymentMapper.toDto(canceledPayment);
     }
